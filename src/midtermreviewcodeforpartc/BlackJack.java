@@ -41,8 +41,9 @@ public class BlackJack {
         String password = "";
         
         while (!validPassword) {
-            System.out.println("Passwords must have at least 8 characters");
-            System.out.println("Passwords must have at least one Uppercase character");
+            String prompt = "Passwords are required to have 8 characters\n" +
+                    "and at least one uppercase character";
+            System.out.println(prompt);
             System.out.println("Please enter your desired password:");
 
             password = sc.nextLine();
@@ -67,7 +68,7 @@ public class BlackJack {
 
         System.out.println("New User Added");
         System.out.println("UserName: " + userName);
-        System.out.println("Password: just kidding can't show password");
+        System.out.println("Password: on file" );
 
     }//end run method
 
