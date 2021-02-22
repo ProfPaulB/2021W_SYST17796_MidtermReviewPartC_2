@@ -51,7 +51,7 @@ public class BlackJack {
             //iterate over each character to see if it is a special character
             
             for (int i = 0; i < password.length(); i++) {
-                if (!(Character.isUpperCase(password.charAt(i)))) {
+                if (Character.isUpperCase(password.charAt(i))) {
                     //now we know there is at least one special character
                     upperCharCount++;
                 }
