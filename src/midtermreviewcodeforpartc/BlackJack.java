@@ -7,7 +7,7 @@ import java.util.Scanner;
  * new user in the list of possible users. To be used as the beginning code for MidtermReview C.
  *
  * @author dancye, 2019
- * @author Paul Bonenfant, February 2021
+ * @author Paul Bonenfant, February 2022
  */
 public class BlackJack {
 
@@ -44,6 +44,7 @@ public class BlackJack {
             String prompt = "Passwords are required to have 8 characters\n" +
                     "and at least one uppercase character";
             System.out.println(prompt);
+            
             System.out.println("Please enter your desired password:");
 
             password = sc.nextLine();
