@@ -7,7 +7,7 @@ import java.util.Scanner;
  * new user in the list of possible users. To be used as the beginning code for MidtermReview C.
  *
  * @author dancye, 2019
- * @author Paul Bonenfant, February 2021
+ * @author Paul Bonenfant, February 2022
  */
 public class BlackJack {
 
@@ -62,14 +62,11 @@ public class BlackJack {
         }//loop only ends when password is valid so now we create the Player
 
         Player newUser = new Player(userName, password);
-        players[userCount] = newUser;//add the new user to the user list
-
-        userCount++;
+        players[userCount++] = newUser;//add the new user to the user list
 
         System.out.println("New User Added");
         System.out.println("UserName: " + userName);
         System.out.println("Password: on file" );
 
-    }//end run method
-
-}//end class
+    }
+}
