@@ -62,14 +62,11 @@ public class BlackJack {
         }//loop only ends when password is valid so now we create the Player
 
         Player newUser = new Player(userName, password);
-        players[userCount] = newUser;//add the new user to the user list
-
-        userCount++;
+        players[userCount++] = newUser;//add the new user to the user list
 
         System.out.println("New User Added");
         System.out.println("UserName: " + userName);
         System.out.println("Password: on file" );
 
-    }//end run method
-
-}//end class
+    }
+}
