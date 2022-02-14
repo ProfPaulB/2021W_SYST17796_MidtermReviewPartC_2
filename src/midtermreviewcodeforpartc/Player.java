@@ -1,10 +1,10 @@
 package midtermreviewcodeforpartc;
 
 /**
- * A class that models a Blackjack Player. The user has a name and a password.
+ * A class that models a User for Uno Online. The user has a name and a password.
  *
  * @author dancye, 2019
- * @author Paul Bonenfant, February 2022
+ * @author Paul Bonenfant, 2021
  */
 public class Player {
 
